@@ -21,10 +21,8 @@ public abstract class BasePage {
     }
 
     public void openHomePage() {
-
         driver.manage().window().maximize();
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
-
         driver.get(BASE_URL);
     }
 

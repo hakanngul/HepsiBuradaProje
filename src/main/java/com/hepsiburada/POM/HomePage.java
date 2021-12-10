@@ -14,6 +14,7 @@ import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 
 public class HomePage extends BasePage {
+
     @FindBy(xpath = "//span[@title='Giriş Yap']")
     private WebElement hoverLoginLocator;
 

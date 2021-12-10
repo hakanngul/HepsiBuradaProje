@@ -41,8 +41,8 @@ public class ProductPage extends BasePage {
     }
 
     public void checkProductPage() {
-        wait.until(ExpectedConditions.visibilityOf(creditButton));
-        var x = creditButton.getText();
+        wait.until(ExpectedConditions.visibilityOf(addToCartButton1));
+//        var x = creditButton.getText();
     }
 
     public void clickAddToCartButton() {
