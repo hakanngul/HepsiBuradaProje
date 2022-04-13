@@ -6,7 +6,7 @@ Feature: HepsiBuradaTestCase
     When I click on the login page button
     When I enter the "hhakangul@outlook.com" email address
     When I click on the sign in button
-    When I enter the "y37$36h8k#h" password
+    When I enter the "password" password
     When I click on the login
     Then Wait for the home page to load and checkout login
     When I search for the "telefon" product
