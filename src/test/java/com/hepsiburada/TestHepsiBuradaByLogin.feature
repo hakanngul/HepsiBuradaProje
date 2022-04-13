@@ -4,7 +4,7 @@ Feature: HepsiBuradaTestCase
   Scenario: AddProductToBasketByLogin
     Given I am on the home page
     When I click on the login page button
-    When I enter the "hhakangul@outlook.com" email address
+    When I enter the "email adress" email address
     When I click on the sign in button
     When I enter the "password" password
     When I click on the login
